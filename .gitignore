@@ -137,3 +137,9 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Salesforce certificates and keys (IMPORTANT: Never commit these!)
+certs/*.pem
+certs/*.crt
+certs/*.key
+!certs/.gitkeep
